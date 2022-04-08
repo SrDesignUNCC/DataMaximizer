@@ -1,0 +1,537 @@
+{
+  "100": {
+    " pedistol 3": {
+      "buttonResponseTimeDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 5000
+      },
+      "gazeResponseTimesDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 2000
+      },
+      "buttonErrorDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 5
+      },
+      "totalButtonResponseTime": 5000,
+      "totalErrorButtonPresses": 0,
+      "gazeErrorDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 2
+      },
+      "totalGazeResponseTime": 2000,
+      "totalErrorGazeCount": 0,
+      "totalButtonPresses": 5,
+      "totalGazeCount": 2,
+      "buttonOrder": [
+        [
+          " pedistol 3"
+        ],
+        [
+          " pedistol 3"
+        ],
+        [
+          " pedistol 3"
+        ],
+        [
+          " pedistol 3"
+        ],
+        [
+          " pedistol 3"
+        ]
+      ],
+      "gazeOrder": [
+        [
+          " pedistol 3"
+        ],
+        [
+          " pedistol 3"
+        ],
+        [],
+        [],
+        []
+      ],
+      "totalRuns": 5
+    }
+  },
+  "101": {
+    " pedistol 2": {
+      "buttonResponseTimeDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 1000
+      },
+      "gazeResponseTimesDistrabution": {},
+      "buttonErrorDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 1
+      },
+      "totalButtonResponseTime": 1000,
+      "totalErrorButtonPresses": 0,
+      "gazeErrorDistrabution": {},
+      "totalGazeResponseTime": 0,
+      "totalErrorGazeCount": 0,
+      "totalButtonPresses": 1,
+      "totalGazeCount": 0,
+      "buttonOrder": [
+        [
+          " pedistol 2"
+        ]
+      ],
+      "gazeOrder": [
+        []
+      ],
+      "totalRuns": 1
+    },
+    " pedistol 3": {
+      "buttonResponseTimeDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 1000
+      },
+      "gazeResponseTimesDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 0
+      },
+      "buttonErrorDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 1
+      },
+      "totalButtonResponseTime": 1000,
+      "totalErrorButtonPresses": 0,
+      "gazeErrorDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 1,
+        "32Error": 0,
+        "none": 0
+      },
+      "totalGazeResponseTime": 0,
+      "totalErrorGazeCount": 1,
+      "totalButtonPresses": 1,
+      "totalGazeCount": 1,
+      "buttonOrder": [
+        [
+          " pedistol 3"
+        ]
+      ],
+      "gazeOrder": [
+        [
+          " pedistol 1"
+        ]
+      ],
+      "totalRuns": 1
+    }
+  },
+  "110": {
+    " pedistol 1": {
+      "buttonResponseTimeDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 5000
+      },
+      "gazeResponseTimesDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 2000
+      },
+      "buttonErrorDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 5
+      },
+      "totalButtonResponseTime": 5000,
+      "totalErrorButtonPresses": 0,
+      "gazeErrorDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 3
+      },
+      "totalGazeResponseTime": 2000,
+      "totalErrorGazeCount": 0,
+      "totalButtonPresses": 5,
+      "totalGazeCount": 3,
+      "buttonOrder": [
+        [
+          " pedistol 1"
+        ],
+        [
+          " pedistol 1"
+        ],
+        [
+          " pedistol 1"
+        ],
+        [
+          " pedistol 1"
+        ],
+        [
+          " pedistol 1"
+        ]
+      ],
+      "gazeOrder": [
+        [],
+        [],
+        [
+          " pedistol 1"
+        ],
+        [
+          " pedistol 1"
+        ],
+        [
+          " pedistol 1"
+        ]
+      ],
+      "totalRuns": 5
+    }
+  },
+  "111": {
+    " pedistol 1": {
+      "buttonResponseTimeDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 5000
+      },
+      "gazeResponseTimesDistrabution": {},
+      "buttonErrorDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 3
+      },
+      "totalButtonResponseTime": 5000,
+      "totalErrorButtonPresses": 0,
+      "gazeErrorDistrabution": {},
+      "totalGazeResponseTime": 0,
+      "totalErrorGazeCount": 0,
+      "totalButtonPresses": 3,
+      "totalGazeCount": 0,
+      "buttonOrder": [
+        [
+          " pedistol 1"
+        ],
+        [
+          " pedistol 1"
+        ],
+        [
+          " pedistol 1"
+        ]
+      ],
+      "gazeOrder": [
+        [],
+        [],
+        []
+      ],
+      "totalRuns": 3
+    }
+  },
+  "001": {
+    " pedistol 3": {
+      "buttonResponseTimeDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 4000
+      },
+      "gazeResponseTimesDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 1000
+      },
+      "buttonErrorDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 4
+      },
+      "totalButtonResponseTime": 4000,
+      "totalErrorButtonPresses": 0,
+      "gazeErrorDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 1,
+        "32Error": 1,
+        "none": 3
+      },
+      "totalGazeResponseTime": 1000,
+      "totalErrorGazeCount": 2,
+      "totalButtonPresses": 4,
+      "totalGazeCount": 5,
+      "buttonOrder": [
+        [
+          " pedistol 3"
+        ],
+        [
+          " pedistol 3"
+        ],
+        [
+          " pedistol 3"
+        ],
+        [
+          " pedistol 3"
+        ]
+      ],
+      "gazeOrder": [
+        [
+          " pedistol 3"
+        ],
+        [
+          " pedistol 1",
+          " pedistol 2"
+        ],
+        [
+          " pedistol 3"
+        ],
+        [
+          " pedistol 3"
+        ]
+      ],
+      "totalRuns": 4
+    }
+  },
+  "011": {
+    " pedistol 2": {
+      "buttonResponseTimeDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 3000
+      },
+      "gazeResponseTimesDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 0
+      },
+      "buttonErrorDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 3
+      },
+      "totalButtonResponseTime": 3000,
+      "totalErrorButtonPresses": 0,
+      "gazeErrorDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 1,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 0
+      },
+      "totalGazeResponseTime": 0,
+      "totalErrorGazeCount": 1,
+      "totalButtonPresses": 3,
+      "totalGazeCount": 1,
+      "buttonOrder": [
+        [
+          " pedistol 2"
+        ],
+        [
+          " pedistol 2"
+        ],
+        [
+          " pedistol 2"
+        ]
+      ],
+      "gazeOrder": [
+        [
+          " pedistol 1"
+        ],
+        [],
+        []
+      ],
+      "totalRuns": 3
+    }
+  },
+  "010": {
+    " pedistol 1": {
+      "buttonResponseTimeDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 1000
+      },
+      "gazeResponseTimesDistrabution": {},
+      "buttonErrorDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 1
+      },
+      "totalButtonResponseTime": 1000,
+      "totalErrorButtonPresses": 0,
+      "gazeErrorDistrabution": {},
+      "totalGazeResponseTime": 0,
+      "totalErrorGazeCount": 0,
+      "totalButtonPresses": 1,
+      "totalGazeCount": 0,
+      "buttonOrder": [
+        [
+          " pedistol 1"
+        ]
+      ],
+      "gazeOrder": [
+        []
+      ],
+      "totalRuns": 1
+    },
+    " pedistol 2": {
+      "buttonResponseTimeDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 6000
+      },
+      "gazeResponseTimesDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 2000,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 0
+      },
+      "buttonErrorDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 0,
+        "23Error": 0,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 2
+      },
+      "totalButtonResponseTime": 6000,
+      "totalErrorButtonPresses": 0,
+      "gazeErrorDistrabution": {
+        "12Error": 0,
+        "13Error": 0,
+        "21Error": 1,
+        "23Error": 2,
+        "31Error": 0,
+        "32Error": 0,
+        "none": 0
+      },
+      "totalGazeResponseTime": 2000,
+      "totalErrorGazeCount": 3,
+      "totalButtonPresses": 2,
+      "totalGazeCount": 3,
+      "buttonOrder": [
+        [
+          " pedistol 2"
+        ],
+        [
+          " pedistol 2"
+        ]
+      ],
+      "gazeOrder": [
+        [
+          " pedistol 3"
+        ],
+        [
+          " pedistol 3",
+          " pedistol 1"
+        ]
+      ],
+      "totalRuns": 2
+    }
+  }
+}
