@@ -1,4 +1,4 @@
-import { sumMergeArrayOfObjs } from "./helper.js"
+import { countErrors, sumMergeArrayOfObjs } from "./helper.js"
 import { validateLocation, validateTime } from "./validator.js"
 
 
@@ -64,6 +64,8 @@ export const construeEvents = (EventsArray) => {
     QuantizedEvent.size = Event[0].Size
     QuantizedEvent.location = location
     QuantizedEvent.endTime = endTime.toString()
+    QuantizedEvent.buttonErrorCount = 0
+    QuantizedEvent.gazeErrorCount = 0
     QuantizedEvent.buttonErrors = {}
     QuantizedEvent.buttonEvents = 0
     QuantizedEvent.buttonOrder = []
@@ -91,6 +93,10 @@ export const construeEvents = (EventsArray) => {
         let eventOrder = QuantizedEvent.gazeOrder
         eventOrder.push(eventLocation)
         QuantizedEvent.gazeOrder = eventOrder
+
+        let gazeErrorCount = countErrors(gazeErrors)
+        let gazeErrCount = QuantizedEvent.gazeErrorCount
+        QuantizedEvent.gazeErrorCount = gazeErrCount + gazeErrorCount
       }
 
       if(eventType == "userButtonPress"){
@@ -108,6 +114,11 @@ export const construeEvents = (EventsArray) => {
         let eventOrder = QuantizedEvent.buttonOrder
         eventOrder.push(eventLocation)
         QuantizedEvent.buttonOrder = eventOrder
+
+        let buttonErrorCount = countErrors(buttonErrors)
+        let buttonErrCount = QuantizedEvent.buttonErrorCount
+        QuantizedEvent.buttonErrorCount = buttonErrorCount + buttonErrCount
+
       }
 
     })
@@ -126,18 +137,44 @@ export const construeEvents = (EventsArray) => {
 }
 
 export const generateRunStats = (QuantizedEvents) => {
-  let errors = {
-    '12Error': 0,
-    '13Error': 0,
-    '21 Error': 0,
-    '23 Error': 0,
-    '31 Error': 0,
-    '32 Error': 0
-  }
   let totalErrors = 0
   let totalCTA = 0
   let totalGazeEvents = 0
   let gazeEventsPerEvent = 0
   let totalButtonEvents = 0
   let totalButtonEventsPerEvent = 0
+}
+
+export const uniqueRuns = (QuantizedEvents) => {
+  try {
+    let uniqueDeviceIds = {}
+    let sortedData = {}
+  
+    QuantizedEvents.forEach(event => {
+      let eventID = (event.size.toString()+event.color.toString()+event.shape.toString());
+      
+      if(uniqueDeviceIds[eventID] === undefined) {
+        uniqueDeviceIds[eventID] = eventID
+
+        // new device
+        sortedData[eventID] = [event]
+      } else {
+
+        // existing device
+        let updatedArray = sortedData[eventID]
+        updatedArray.push(event)
+        sortedData[eventID] = updatedArray
+      }
+    })
+    
+    // this.setState({sortedData: sortedData})	
+    // console.log(sortedData)
+    // return {error: false, message: "ok"}
+
+    return sortedData
+
+  } catch (error) {
+
+    return {error: true, message: error}
+  }  
 }

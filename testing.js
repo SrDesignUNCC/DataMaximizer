@@ -1,7 +1,7 @@
 
 let err = {
   '12Error': 0,
-  '13Error': 0,
+  '13Error': 1,
   '21 Error': 0,
   '23 Error': 0,
   '31 Error': 1,
@@ -32,9 +32,11 @@ let time2 = new Date(event2.Timestamp)
 let rt = time2-time1
 
 Object.keys(err).forEach(er => {
-  let val = err[er]
-  err[er] = (val * rt)
+  // let val = err[er]
+  // err[er] = (val * rt)
 })
 
+const sumValues = obj => Object.values(obj).reduce((a, b) => a + b);
 
-console.log(err)
+
+console.log(sumValues(err))

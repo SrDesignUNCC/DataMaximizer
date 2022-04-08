@@ -16,3 +16,12 @@ export const sumMergeArrayOfObjs = (data) => {
   return result
 
 }
+
+export const countErrors = (errorObj) => {
+
+  let obj = {...errorObj}
+  delete obj['none']
+
+  const sumValues = obj => Object.values(obj).reduce((a, b) => a + b)
+  return sumValues(obj)
+}
